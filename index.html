@@ -31,6 +31,7 @@
                         clifford: '#da373d',
                         'legal-primary': 'rgb(182, 140, 90)',
                         dark3: 'rgb(112, 112, 112)',
+                        dark4: 'rgb(160, 160, 160)',
                     }
                 }
             }
@@ -63,7 +64,8 @@
                     </div>
                     <!-- Logo -->
                     <div class="flex items-center">
-                        <a href="#"><img class=" w-11 h-11" src="./images/business.png" alt="Logo"></a>
+                        <a href="#"><img class="w-full h-full md:w-11 md:h-11 lg:w-11 lg:h-11"
+                                src="./images/business.png" alt="Logo"></a>
                         <a class="btn btn-ghost text-4xl font-extrabold font-garamond leading-10">Justice</a>
                     </div>
                 </div>
@@ -81,6 +83,24 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Banner -->
+        <section>
+            <div class="hero min-h-screen lg:bg-contain bg-no-repeat" style="background-image: url(./images/banner.png);">
+                <div class=""></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-2xl">
+                        <h1 class="mb-5 text-7xl font-extrabold">We Provide Effective Legal Solutions</h1>
+                        <p class="mb-5 font-poppins">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour.
+                        </p>
+                        <input type="text" placeholder="Search your services" class="input input-bordered w-full max-w-xs text-dark4" />
+                        <button class="btn bg-legal-primary text-white font-poppins text-xl font-semibold mt-5 lg:ml-5">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main></main>
     <footer></footer>
